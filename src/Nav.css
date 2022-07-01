@@ -1,0 +1,32 @@
+/* .navigation-bar {
+    display: flex;
+} */
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+    height: 30px;
+    padding: 20px;
+}
+
+/* .nav_black {
+    background-color: #111;
+} */
+
+.nav-logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.profile-logo { 
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+}
